@@ -1,137 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Srividya Prasad - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srividya Prasad</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <h1>Srividya Prasad</h1>
-    <p>
-      <a href="mailto:srividyaprasad3@gmail.com">srividyaprasad3@gmail.com</a> |
-      <a href="https://linkedin.com/in/srividyaprasad" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/srividyaprasad" target="_blank">GitHub</a> |
-      +91 8951951105 | Bangalore
-    </p>
-    <p><strong>Interested in hardware for AI and robotics. Skilled in HW-SW co-design, GPU optimization, and embedded systems.</strong></p>
+    <div class="header-content">
+      <h1>Srividya Prasad</h1>
+      <p>Hardware + AI + Robotics | Embedded Systems | GPU Acceleration</p>
+      <div class="contact">
+        <a href="mailto:srividyaprasad3@gmail.com">srividyaprasad3@gmail.com</a> |
+        <a href="https://linkedin.com/in/srividyaprasad" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/srividyaprasad" target="_blank">GitHub</a>
+      </div>
+    </div>
+    <a class="cv-button" href="Srividya_Prasad_CV.pdf" download>Download CV</a>
   </header>
 
-  <section>
-    <h2>Education</h2>
-    <p><strong>BTech in Electronics and Communication Engineering</strong> – PES University (Graduating 2025)<br>
-    CGPA: 9.14/10 (Academic Merit Scholarship in all semesters)</p>
-    <p>Minor in Computer Science Engineering – PES University (CGPA: 9.75/10)</p>
-    <p><em>Relevant Coursework:</em> Computer Architecture, RISC-V Architecture, Digital Image Processing, Robotic Systems, ML, Operating Systems, Algorithms, DBMS</p>
-  </section>
+  <main>
+    <section>
+      <h2>Education</h2>
+      <p><strong>BTech in Electronics and Communication Engineering</strong> – PES University (Graduating 2025)</p>
+      <p>CGPA: 9.14 | Academic Merit Scholarship (all semesters)</p>
+      <p><em>Minor in Computer Science Engineering</em> – CGPA: 9.75</p>
+    </section>
 
-  <section>
-    <h2>Experience</h2>
-    
-    <h3>Ati Motors – Autonomy Intern</h3>
-    <p>Jan 2025 – June 2025</p>
-    <ul>
-      <li>Optimized CPU algorithms by porting them to GPU using SIMD; improved memory and execution time.</li>
-      <li>Enhanced Isaac Sim-based simulation framework; integrated robotic workflows and foundational models.</li>
-      <li>Contributed ROS 2 communication support to open-source repo.</li>
-    </ul>
+    <section>
+      <h2>Experience</h2>
+      <h3>Ati Motors – Autonomy Intern</h3>
+      <ul>
+        <li>Ported CPU algorithms to GPU using SIMD for optimization.</li>
+        <li>Enhanced Isaac Sim robotic workflows</li>
+        <li>Tested foundational models and VSLAM</li>
+      </ul>
 
-    <h3>PES University – Teaching Assistant (Digital Image Processing)</h3>
-    <p>Aug 2024 – Dec 2024</p>
-    <ul>
-      <li>Conducted weekly practicals; designed tests, assignments, and mentored course projects.</li>
-    </ul>
+      <h3>Microsoft – Hardware Engineering Intern</h3>
+      <ul>
+        <li>Explored GPU server architecture & executed workloads</li>
+        <li>Created PowerBI dashboard; built OEM GPU tool parser in C#.</li>
+      </ul>
+    </section>
 
-    <h3>Microsoft IDC – Electrical Engineering Intern</h3>
-    <p>Jun 2024 – Jul 2024</p>
-    <ul>
-      <li>Explored GPU server architecture and validation under LLM workloads.</li>
-      <li>Built PowerBI dashboard for performance metrics; integrated OEM GPU tool into Virtual Client with C# parsers.</li>
-      <li>Presented case study on LLM impact on AI server hardware design.</li>
-    </ul>
+    <section>
+      <h2>Projects</h2>
+      <h3>Visual Inertial Wheel Odometry</h3>
+      <p>Springer Q1 Journal | Indoor landmark-based odometry correction</p>
 
-    <h3>Indian Institute of Science (IISc) – Embedded Systems Intern</h3>
-    <p>Jun 2023 – Jul 2023</p>
-    <ul>
-      <li>Built drone thrustbench; integrated sensors and developed Arduino-based control system.</li>
-      <li>Reduced cost by 65% compared to commercial alternatives.</li>
-    </ul>
-  </section>
+      <h3>Mobile Omni-Directional Drawing Robot</h3>
+      <p>ROS + Mecanum wheels | Pattern drawing using controlled motion</p>
 
-  <section>
-    <h2>Projects</h2>
-    <h3>Visual Inertial Wheel Odometry for Mobile Robots (Capstone Research)</h3>
-    <p>Published in Springer Q1 Journal. Research in collaboration with Accio Robotics on odometry correction using indoor landmarks.</p>
-
-    <h3>Mobile Omni-Directional Drawing Robot</h3>
-    <p>Mecanum-wheeled robot programmed using ROS to draw geometric patterns. <a href="https://github.com/srividyaprasad" target="_blank">GitHub</a></p>
-
-    <h3>Speedometer using Embedded C</h3>
-    <p>Used MSP430 microcontroller and Hall sensors to measure vehicle speed. <a href="https://github.com/srividyaprasad" target="_blank">GitHub</a></p>
-
-    <h3>Computer Vision Aid for Blind</h3>
-    <p>Implemented real-time object and gesture recognition with audio feedback on Jetson Nano. <a href="https://github.com/srividyaprasad" target="_blank">GitHub</a></p>
-  </section>
-
-  <section>
-    <h2>Achievements</h2>
-    <ul>
-      <li>Microsoft EE Summer Intern 2024 – Selected as the only student from PES University.</li>
-      <li>1st Prize – Kodikon Hackathon (300+ participants), CSE Dept, PES University.</li>
-      <li>1st Runner-Up – Robonautica, IISc Robotics Competition (3-stage physical robotics challenge).</li>
-      <li>4th Prize – HackEzee 2022 (Hardware Design Competition), for drawing robot.</li>
-      <li>3rd Prize – SRM Ideathon (Women's Safety Device).</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Research & Publications</h2>
-    <ul>
-      <li><strong>WareOdo:</strong> Leveraging warehouse landmarks for correcting odometry in indoor mobile robots.<br>
-        <a href="https://doi.org/10.1007/s11370-025-00610-4" target="_blank">Published in Springer Intelligent Service Robotics (Q1 Journal)</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Patents</h2>
-    <ul>
-      <li><strong>Utility Patent #202241059634:</strong> A Mobile Robot with a Writing Tool Holder (2022-10-19)</li>
-      <li><strong>Design Patent #372809-001:</strong> Writing Tool Holder for Robot</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Leadership & Mentoring</h2>
-    <p><strong>Student Secretary – IEEE RAS Chapter, PES University</strong> (Jan 2023 – Dec 2023)</p>
-    <ul>
-      <li>Led a 44-member team and 700+ community; organized 2 robotics competitions, 4 workshops, 2 hackathons.</li>
-      <li>Launched India’s first 24/7 Remote Robotics Lab in an educational institution.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Trainings & Certifications</h2>
-    <ul>
-      <li>3D Vision Summer School (IIIT Bangalore, 2024)</li>
-      <li>Systems for Machine Learning Workshop (CDS, IISc, 2025)</li>
-      <li>Introduction to Machine Learning (PESU I/O Program)</li>
-      <li>MATLAB Onramp | Boot.dev Backend Dev Roadmap</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Hobbies</h2>
-    <h3>Poetry</h3>
-    <p>Recipient of ‘Shri Nadaprabhu Kempegowda Award’ (Literature), author of <em>Voyage Through Verses</em>. Published in national newspapers.</p>
-    <p>Blog: <a href="https://srividyaprasadpoetry.blogspot.com/" target="_blank">srividyaprasadpoetry.blogspot.com</a></p>
-
-    <h3>Music</h3>
-    <p>Hindustani Classical Vocalist; performed at various cultural events.</p>
-  </section>
+      <h3>Computer Vision Aid for Blind</h3>
+      <p>Real-time object and gesture recognition on Jetson Nano</p>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Srividya Prasad | Built with HTML & CSS</p>
+    <p>&copy; 2025 Srividya Prasad | Made with ❤️ and HTML+CSS</p>
   </footer>
 </body>
 </html>
