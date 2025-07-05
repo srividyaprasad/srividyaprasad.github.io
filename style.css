@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-/* Base Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,140 +5,90 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #a0c4ff; /* Slightly darker light blue */
-  color: #ffffff;
-  line-height: 1.8;
-  padding: 50px 20px;
-  max-width: 960px;
-  margin: auto;
-  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef5f9;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 20px;
 }
 
-/* Header */
 header {
-  text-align: center;
-  margin-bottom: 60px;
-  animation: fadeIn 1s ease;
+  background-color: #134074;
+  color: white;
+  padding: 30px 20px 50px;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 900px;
+  margin: auto;
 }
 
 header h1 {
-  font-size: 2.8rem;
-  font-weight: 600;
+  font-size: 2.5em;
   margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1.1rem;
-  opacity: 0.95;
+  font-size: 1.1em;
+  margin-bottom: 10px;
 }
 
-header a {
-  color: #fff;
+.contact a {
+  color: #cde7ff;
   text-decoration: none;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-  transition: border-bottom 0.3s ease;
 }
 
-header a:hover {
-  border-bottom: 1px solid #fff;
+.cv-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #e8f1fa;
+  color: #134074;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
 }
 
-/* Section Headings */
-h2 {
-  font-size: 1.7rem;
-  margin-top: 60px;
-  margin-bottom: 15px;
-  border-left: 6px solid rgba(255, 255, 255, 0.8);
-  padding-left: 10px;
-  color: #f0f8ff;
+.cv-button:hover {
+  background-color: #cde7ff;
 }
 
-/* Subheadings */
-h3 {
-  font-size: 1.3rem;
-  margin-top: 30px;
-  font-weight: 500;
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
-/* Content Blocks */
 section {
-  margin-bottom: 50px;
-  animation: fadeInUp 1s ease;
+  margin-bottom: 40px;
 }
 
-p, ul {
-  margin-bottom: 12px;
-  font-size: 1rem;
-  opacity: 0.95;
+h2 {
+  color: #134074;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #0c2d4a;
+  margin-top: 15px;
 }
 
 ul {
-  padding-left: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
-ul li {
-  margin-bottom: 8px;
-  position: relative;
-  padding-left: 10px;
-}
-
-ul li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-/* Links */
-a {
-  color: #ffffff;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #e0e0e0;
-  text-decoration: none;
-}
-
-/* Footer */
 footer {
   text-align: center;
-  font-size: 0.9rem;
-  margin-top: 80px;
-  color: rgba(255, 255, 255, 0.7);
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  padding-top: 15px;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  body {
-    padding: 30px 15px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.1rem;
-  }
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 60px;
 }
